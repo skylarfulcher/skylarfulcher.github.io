@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset= "utf-8">
+	<link rel="stylesheet" href="styles.css">
+	<title>Project Contact Me</title>
+	<!-- Skylar Fulcher, CSCE 102-014, 01/18 -->
+</head>
+<body>
+	<div id="content">
+		<header>
+			<h1> Skylar Fulcher </h1>
+		</header>
+		<nav>
+			<ul class="navul">
+				<li class="list"><a href="index.html">Home</a></li>
+				<li class="list"><a href="quiz.html">Quiz</a></li>
+				<li class="list"><a href="contact.html">Contact Me</a></li>
+			</ul>
+		</nav>
+		<main id="contactstuff">
+		<h1> Directions:</h1> 
+		<h3> The Skylar Foundation </h3>
+		<p>111 Bull St.</p>
+		<p> Columbia, SC, 29205 </p>
+		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3308.205943109125!2d-81.021841!3d33.9872436!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88f8badb6ad36195%3A0x3f143e9790a172f8!2s111%20S%20Bull%20St%2C%20Columbia%2C%20SC%2029205!5e0!3m2!1sen!2sus!4v1681307900700!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+		<h1> Contact Me:</h1>
+		<form action="https://api.web3forms.com/submit" method="POST">
+
+    <input type="hidden" name="access_key" value="4b5f8147-4846-452e-8490-f4c7f8f27edf">
+<p><label for ="name"> Name:</label>
+    <input id="name" type="text" name="name" required></p>
+	<p><label for ="email"> Email:</label>
+    <input id="email" type="email" name="email" required></p>
+	<p><label for ="message"> Message:</label>
+    <textarea id="message" name="message" required></textarea>
+    <input type="hidden" name="redirect" value="https://web3forms.com/success"></p>
+
+    <button type="submit">Submit Form</button>
+
+</form>
+</main>
+<footer>
+	&copy; My copywrite
+</footer>
+	</div>
+<script src="script.js"></script>
+</body>
+</html> 
